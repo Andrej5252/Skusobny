@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>URW Chancery L</family>
+    <pointsize>14</pointsize>
+    <italic>true</italic>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QListWidget" name="zoznamKontaktov"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>785</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuS_bor">
+    <property name="title">
+     <string>Súbor</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuKontakt">
+    <property name="title">
+     <string>Kontakt</string>
+    </property>
+    <addaction name="actionPridaj"/>
+    <addaction name="actionVymazat"/>
+    <addaction name="actionUpravit"/>
+    <addaction name="actionZobrazi"/>
+   </widget>
+   <addaction name="menuS_bor"/>
+   <addaction name="menuKontakt"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="font">
+    <font>
+     <family>Comic Sans MS</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPridaj"/>
+   <addaction name="separator"/>
+   <addaction name="actionUpravit"/>
+   <addaction name="separator"/>
+   <addaction name="actionVymazat"/>
+   <addaction name="separator"/>
+   <addaction name="actionZobrazi"/>
+  </widget>
+  <action name="actionPridaj">
+   <property name="icon">
+    <iconset resource="icony.qrc">
+     <normaloff>:/toolbar/img/add-user-multi-size.ico</normaloff>:/toolbar/img/add-user-multi-size.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Pridať</string>
+   </property>
+  </action>
+  <action name="actionVymazat">
+   <property name="icon">
+    <iconset resource="icony.qrc">
+     <normaloff>:/toolbar/img/warning-38-multi-size.ico</normaloff>:/toolbar/img/warning-38-multi-size.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Vymazať</string>
+   </property>
+  </action>
+  <action name="actionUpravit">
+   <property name="icon">
+    <iconset resource="icony.qrc">
+     <normaloff>:/toolbar/img/edit-8-multi-size.ico</normaloff>:/toolbar/img/edit-8-multi-size.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Upraviť</string>
+   </property>
+  </action>
+  <action name="actionZobrazi">
+   <property name="icon">
+    <iconset resource="icony.qrc">
+     <normaloff>:/toolbar/img/show-property-multi-size.ico</normaloff>:/toolbar/img/show-property-multi-size.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Zobraziť</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icony.qrc"/>
+ </resources>
+ <connections/>
+</ui>

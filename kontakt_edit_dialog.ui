@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KontaktEditDialog</class>
+ <widget class="QDialog" name="KontaktEditDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>617</width>
+    <height>256</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>URW Chancery L</family>
+    <pointsize>14</pointsize>
+    <weight>7</weight>
+    <italic>true</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Kontakt</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 57 italic 14pt &quot;URW Chancery L&quot;;
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="1" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>meno:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="txtMeno"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="txtPriezvisko"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>priezvisko:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>titul:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>prezývka:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>dátum narodenia:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="txtTitul"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="txtPrezyvka"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QDateEdit" name="datumNarodenia">
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>mobil:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>telefón:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>e-mail:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>adresa:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="font">
+          <font>
+           <family>URW Chancery L</family>
+           <pointsize>14</pointsize>
+           <weight>7</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>názov firmy:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="txtCisloTelefon"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="txtCisloMobil"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="txtEmail"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="txtAdresa"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="txtFirma"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>7</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Save</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>txtTitul</tabstop>
+  <tabstop>txtMeno</tabstop>
+  <tabstop>txtPriezvisko</tabstop>
+  <tabstop>txtPrezyvka</tabstop>
+  <tabstop>datumNarodenia</tabstop>
+  <tabstop>txtCisloMobil</tabstop>
+  <tabstop>txtCisloTelefon</tabstop>
+  <tabstop>txtEmail</tabstop>
+  <tabstop>txtAdresa</tabstop>
+  <tabstop>txtFirma</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>KontaktEditDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>221</x>
+     <y>187</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>160</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>KontaktEditDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>242</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

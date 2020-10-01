@@ -1,0 +1,10 @@
+meno, priezvisko, titul
+prezývka
+mobil
+telefón
+e-mail
+adresa
+firma
+dátum narodenia
+
+skupiny
